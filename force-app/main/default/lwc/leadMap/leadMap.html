@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Located Lead 생성">
+        <div class="map-container" style="width: 100%; height: 400px;"></div>
+
+        <lightning-input type="text" label="주소" value={address} readonly></lightning-input>
+        <lightning-input type="text" label="회사명" value={company} onchange={handleCompanyChange}></lightning-input>
+        <lightning-input type="checkbox" label="POS 사용 여부" onchange={handleCheckboxChange}></lightning-input>
+        <lightning-button label="Save" variant="brand" onclick={handleSave}></lightning-button>
+    </lightning-card>
+</template>

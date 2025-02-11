@@ -1,0 +1,31 @@
+<!-- webToLeadForm.html -->
+<template>
+    <lightning-card title="Web To Lead Form">
+        <div class="slds-p-around_medium">
+            <lightning-input label="Email" name="email" type="email" value={email} onchange={handleChange}></lightning-input>
+            <lightning-input label="Company" name="company" type="text" value={company} onchange={handleChange}></lightning-input>
+            <lightning-input label="Phone" name="phone" type="tel" value={phone} onchange={handleChange}></lightning-input>
+            
+            <lightning-combobox label="Category" name="category" value={category} options=
+                "[
+                    { label: '--None--', value: '' },
+                    { label: '소상공인', value: '소상공인' },
+                    { label: '프렌차이즈', value: '프렌차이즈' }
+                ]" onchange={handleChange}></lightning-combobox>
+            
+            <lightning-input type="checkbox" label="POS" name="pos" checked={pos} onchange={handleChange}></lightning-input>
+            
+            <lightning-combobox label="Product Interest" name="productInterest" value={productInterest} options=
+                "[
+                    { label: '--None--', value: '' },
+                    { label: '서빙 로봇', value: '서빙 로봇' },
+                    { label: '테이블 오더', value: '테이블 오더' }
+                ]" onchange={handleChange}></lightning-combobox>
+            
+            <lightning-input label="Size" name="size" type="text" value={size} onchange={handleChange}></lightning-input>
+            <lightning-input label="Number of Locations" name="numberOfLocations" type="text" value={numberOfLocations} onchange={handleChange}></lightning-input>
+            
+            <lightning-button label="Submit" variant="brand" onclick={handleSubmit}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

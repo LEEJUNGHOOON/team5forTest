@@ -1,0 +1,157 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Home",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"3eaa3f7a-4811-4b11-99dd-1ac0bbff615f\",\"columns\":[{\"UUID\":\"fe3ab40f-eadb-401a-9c88-9676f80111c1\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "columnGutterWidth" : "",
+                "columnMinHeight" : "",
+                "columnVerticalAlign" : "flex-start",
+                "layoutDirectionDesktop" : "row",
+                "layoutDirectionMobile" : "column",
+                "layoutDirectionTablet" : "column",
+                "sectionConfig" : "{\"UUID\":\"5329d190-0765-4e25-afc0-12c27a1aa43c\",\"columns\":[{\"UUID\":\"76bcc484-7764-4964-92da-3de44582e9b0\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"8\",\"seedComponents\":[]},{\"UUID\":\"ecf6fd09-5ff1-41f6-915c-39b05ab9af46\",\"columnName\":\"Column 2\",\"columnKey\":\"9068b\",\"columnWidth\":\"4\",\"seedComponents\":[]}]}"
+              },
+              "children" : [ {
+                "children" : [ {
+                  "attributes" : {
+                    "alignment" : "center",
+                    "fit" : "contain",
+                    "height" : 350,
+                    "imageInfo" : "{\"imageInfoV1\":{\"url\":\"/sfsites/c/cms/delivery/media/MCCYWKZKYV3ZDWJNZUPDRP35ZYKM?lastModifiedDate=Tue Feb 11 08:40:07 GMT 2025\",\"altText\":\"\",\"contentKey\":\"MCCYWKZKYV3ZDWJNZUPDRP35ZYKM\",\"contentType\":null}}",
+                    "overlayColor" : "",
+                    "position" : "top left",
+                    "width" : 100
+                  },
+                  "definition" : "dxp_base:image",
+                  "id" : "c16c4706-11c9-4a36-b349-b792fd5dba24",
+                  "type" : "component"
+                } ],
+                "id" : "76bcc484-7764-4964-92da-3de44582e9b0",
+                "name" : "col1",
+                "title" : "Column 1",
+                "type" : "region"
+              }, {
+                "children" : [ {
+                  "attributes" : {
+                    "imageInfos" : "",
+                    "richTextValue" : "<!--  ----------------------------------------------------------------------  -->\n<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->\n<!--  If necessary, please modify the charset parameter to specify the        -->\n<!--  character set of your HTML page.                                        -->\n<!--  ----------------------------------------------------------------------  -->\n\n<!--  ----------------------------------------------------------------------  -->\n<!--  NOTE: Please add the following <FORM> element to your page.             -->\n<!--  ----------------------------------------------------------------------  -->\n\n<form action=\"https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DNS00000DBRrp\" method=\"POST\">\n\n<input type=hidden name=\"oid\" value=\"00DNS00000DBRrp\">\n<input type=hidden name=\"retURL\" value=\"http://\">\n\n<!--  ----------------------------------------------------------------------  -->\n<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->\n<!--  these lines if you wish to test in debug mode.                          -->\n<!--  <input type=\"hidden\" name=\"debug\" value=1>                              -->\n<!--  <input type=\"hidden\" name=\"debugEmail\" value=\"wjdgns9799@gmail.com\">    -->\n<!--  ----------------------------------------------------------------------  -->\n\n<label for=\"email\">Email</label><input  id=\"email\" maxlength=\"80\" name=\"email\" size=\"20\" type=\"text\" /><br>\n\n<label for=\"company\">Company</label><input  id=\"company\" maxlength=\"40\" name=\"company\" size=\"20\" type=\"text\" /><br>\n\n<label for=\"phone\">Phone</label><input  id=\"phone\" maxlength=\"40\" name=\"phone\" size=\"20\" type=\"text\" /><br>\n\n\nCategory:<select  id=\"00NNS00000WftR7\" name=\"00NNS00000WftR7\" title=\"Category\"><option value=\"\">--None--</option><option value=\"소상공인\">소상공인</option>\n<option value=\"프렌차이즈\">프렌차이즈</option>\n</select><br>\n\nPOS:<input  id=\"00NNS00000WfvCn\" name=\"00NNS00000WfvCn\" type=\"checkbox\" value=\"1\" /><br>\n\nProduct Interest:<select  id=\"00NNS00000Wfvnt\" name=\"00NNS00000Wfvnt\" title=\"Product Interest\"><option value=\"\">--None--</option><option value=\"서빙 로봇\">서빙 로봇</option>\n<option value=\"테이블 오더\">테이블 오더</option>\n</select><br>\n\nSize:<input  id=\"00NNS00000WfvxZ\" maxlength=\"18\" name=\"00NNS00000WfvxZ\" size=\"20\" type=\"text\" /><br>\n\nNumberofLocations:<input  id=\"00NNS00000Wfw5d\" maxlength=\"15\" name=\"00NNS00000Wfw5d\" size=\"20\" type=\"text\" /><br>\n\n<input type=\"submit\" name=\"submit\">\n\n</form>"
+                  },
+                  "definition" : "community_builder:htmlEditor",
+                  "id" : "81817ad5-fc25-48a6-a3d8-9faa7fa2edde",
+                  "type" : "component"
+                } ],
+                "id" : "ecf6fd09-5ff1-41f6-915c-39b05ab9af46",
+                "name" : "9068b",
+                "title" : "Column 2",
+                "type" : "region"
+              } ],
+              "definition" : "dxp_layout:columns",
+              "id" : "5329d190-0765-4e25-afc0-12c27a1aa43c",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "size" : "standard",
+                "stretch" : "standard",
+                "text" : "Button",
+                "type" : "primary",
+                "url" : "{\"linkInfo\":{\"pageReference\":{\"type\":\"standard__webPage\",\"attributes\":{\"url\":\"https://team5webtolead.netlify.app/\"}}}}"
+              },
+              "definition" : "dxp_base:button",
+              "id" : "8c74515f-c305-4c78-9ed2-cbd5b9ea116b",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "imageInfos" : "",
+                "richTextValue" : "<p>Use this HTML Editor to add your own markup.</p>"
+              },
+              "definition" : "community_builder:htmlEditor",
+              "id" : "d565aa35-1f5f-4654-a63b-1c66b736a6da",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "backgroundColor" : "",
+                "isLinkable" : false,
+                "linkAssistiveText" : "",
+                "paddingHorizontal" : "x-large",
+                "paddingVertical" : "none",
+                "text" : "Healthx is a leading provider of health and wellness products and technology. Onsectetur adipiscing elit. Vivamus viverra ex purus, vel tempus lectus imperdiet et. Nam sed lorem semper erat venenatis lobortis id dapibus dui. ",
+                "textAlign" : "left",
+                "textDecoration" : "{}",
+                "textDisplayInfo" : "{\"textStyle\": \"heading-medium\", \"headingTag\": \"h3\"}"
+              },
+              "definition" : "dxp_base:textBlock",
+              "id" : "16eb10a8-25c7-421a-9272-1c7b0ec08c52",
+              "type" : "component"
+            }, {
+              "attributes" : {
+                "alignment" : "center",
+                "fit" : "contain",
+                "height" : 350,
+                "imageInfo" : "{\"imageInfoV1\":{\"url\":\"\",\"altText\":\"\",\"contentKey\":\"MCAB2M6RHDKNHSLJMRJHZMLKMQFE\",\"contentType\":null}}",
+                "overlayColor" : "",
+                "position" : "center center",
+                "width" : 100
+              },
+              "definition" : "dxp_base:image",
+              "id" : "9be0571f-348d-4175-ae11-e90916f870e0",
+              "type" : "component"
+            } ],
+            "id" : "fe3ab40f-eadb-401a-9c88-9676f80111c1",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "3eaa3f7a-4811-4b11-99dd-1ac0bbff615f",
+          "type" : "component"
+        } ],
+        "id" : "c7fd9d50-c87d-4137-9783-8dbe11be18f9",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Home",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "7a77b66a-d70e-4fbe-8cc5-356c8862c459",
+          "type" : "component"
+        } ],
+        "id" : "f022084e-718d-4437-833c-b5fc9b57b9bd",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "a5d7a926-5b43-4787-afc4-3cfc5d76f3cb",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "home"
+  },
+  "urlName" : "home"
+}

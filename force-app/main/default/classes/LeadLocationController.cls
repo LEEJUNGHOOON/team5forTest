@@ -6,7 +6,7 @@ public with sharing class LeadLocationController {
             FROM Lead
             WHERE Latitude__c != null AND Longitude__c != null
             ORDER BY CreatedDate DESC
-            LIMIT 10
+            LIMIT 50
         ];
     }
 }
